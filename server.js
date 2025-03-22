@@ -4,7 +4,7 @@ const cors = require("cors");
 const bodyParser = require("body-parser");
 
 const app = express();
-app.use(cors());
+app.use(cors({ origin: "https://index.html.github.io" }));
 app.use(bodyParser.json());
 
 // Database Connection
