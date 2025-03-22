@@ -9,10 +9,10 @@ app.use(bodyParser.json());
 
 // Database Connection
 const db = mysql.createConnection({
-    host: "localhost",
-    user: "root",
-    password: "",
-    database: "form_db"
+    host: "bikvhywkcxpkhxfkjljy-mysql.services.clever-cloud.com",
+    user: "uvu2wx7pxxblo7c4",
+    password: "uvu2wx7pxxblo7c4",
+    database: "bikvhywkcxpkhxfkjljy"
 });
 
 db.connect(err => {
