@@ -6,7 +6,7 @@ document.getElementById("userForm").addEventListener("submit", async function(ev
         email: document.getElementById("email").value
     };
 
-    const response = await fetch("http://simpleform.onrender.com/submit", {
+    const response = await fetch("https://simpleform.onrender.com/submit", {
         method: "POST",
         headers: {
             "Content-Type": "application/json"
